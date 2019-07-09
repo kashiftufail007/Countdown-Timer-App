@@ -16,3 +16,6 @@
 
 ##### Can Pause Countdown at any stage
 ##### When you PAUSE it you will get RESET button and you can reset back to 10 mints
+#### Muhammad Kashif  (kashiftufail007@gmail.com)
+#### Facebook (https://www.facebook.com/KashifCache)
+#### LinkedIn (https://www.linkedin.com/in/muhammad-kashif007/)
