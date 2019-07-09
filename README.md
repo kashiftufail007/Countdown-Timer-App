@@ -1,5 +1,5 @@
 # Countdown-Timer-App 
-### In this app , Time is fixed **10** mints, but you can change , Click on Start Button and countdown will start
+### In this app , Time is fixed **10** mints, but you can change , Click on Start Button and countdown will start , can PAUSE and RESET it
 ##### If you kill this app , countdown will be running is background and when you back oot will show time its reached 
  
  
@@ -15,3 +15,4 @@
 ![Screenshot (180)](https://user-images.githubusercontent.com/34978760/60890081-024cbb80-a274-11e9-9ba2-67e2b845598b.png)
 
 ##### Can Pause Countdown at any stage
+##### When you PAUSE it you will get RESET button and you can reset back to 10 mints
