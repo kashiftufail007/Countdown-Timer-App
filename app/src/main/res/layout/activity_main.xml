@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginBottom="427dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_view_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/_00_00"
+            android:textColor="@android:color/black"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/button_start_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_countdown"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="0dp"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/button_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_countdown"
+            android:layout_marginStart="11dp"
+            android:layout_toEndOf="@+id/button_start_pause"
+            android:text="@string/reset"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
